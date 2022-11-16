@@ -1,0 +1,45 @@
+.container{
+    height: 60px;
+}
+nav{
+    padding: 0 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.idioma{
+    font-size: 16px;
+    cursor: pointer;
+}
+.search-container{
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    padding: 5px;
+}
+.search-container input{
+    border: none;
+}
+.center{
+    flex: 1;
+    text-align: center;
+}
+.right{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-items{
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 25px;
+}

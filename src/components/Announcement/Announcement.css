@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 30px;
+    background-color: rgb(240, 0, 0);
+    color: white;
+}
